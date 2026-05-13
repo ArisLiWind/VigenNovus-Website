@@ -123,16 +123,6 @@ body {
   color: var(--text-light);
 }
 
-.hero-title-en {
-  display: block;
-  font-size: 4.5rem;
-  font-weight: 600;
-  color: var(--text-light);
-  letter-spacing: -0.02em;
-  line-height: 1.1;
-  margin-top: 0;
-}
-
 .hero-subtitle {
   font-size: 1.2rem;
   color: var(--text-muted);
