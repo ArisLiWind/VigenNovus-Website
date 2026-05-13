@@ -7,7 +7,7 @@ const translations = {
     'nav.join':     '加入我们',
 
     'hero.title':    '维新筑境，泽被苍生。',
-    'hero.subtitle': '基于下一代 Agent 与人工智能和科学科技的突破，构建造福人类的设施与协议。',
+    'hero.subtitle': '基于下一代 Agent 与人工智能和科技突破，构建造福人类的设施与协议。',
 
     'about.title': '我们生来，不是为了理解活着的意义。',
     'about.text':  '而是为了感受它。创造属于我们自己的人生，也为他人创造幸福。',
@@ -48,7 +48,7 @@ const translations = {
     'nav.join':     'Join Us',
 
     'hero.title':    'Generate Change.<br>Elevate Humanity.',
-    'hero.subtitle': 'Building the infrastructure and protocols that benefit humanity, powered by next-generation Agent, AI, and breakthroughs in science and technology.',
+    'hero.subtitle': 'Building the infrastructure and protocols that benefit humanity, powered by next-generation Agent, AI, and technological breakthroughs.',
 
     'about.title': 'We are not here to understand life.',
     'about.text':  'We are here to feel it. To create a life that is our own, and to create happiness for others.',
