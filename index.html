@@ -1,111 +1,137 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>VigenNovus - 维境拟生</title>
-      <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VigenNovus - 维境拟生</title>
+    <link rel="stylesheet" href="style.css">
   </head>
-<body>
-      <!-- Navigation Bar -->
-      <nav class="navbar">
-                <div class="nav-container">
-                              <div class="nav-brand">VigenNovus</div>div>
-                              <ul class="nav-menu">
-                                                <li><a href="#home">关于我们</a>a></li>
-                                              <li><a href="#products">我们的产品</a>a></li>
-                                              <li><a href="#culture">企业文化</a>a></li>
-                                              <li><a href="#join">加入我们</a>a></li>
-                              </ul>ul>
-                </div>div>
-      </nav>nav>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-brand">VigenNovus</div>
+        <ul class="nav-menu">
+          <li><a href="#home"   data-i18n="nav.about">关于我们</a></li>
+          <li><a href="#products" data-i18n="nav.products">我们的产品</a></li>
+          <li><a href="#culture"  data-i18n="nav.culture">企业文化</a></li>
+          <li><a href="#join"     data-i18n="nav.join">加入我们</a></li>
+        </ul>
+        <button class="lang-toggle" id="langToggle">EN</button>
+      </div>
+    </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-            <div class="hero-content">
-                        <h1 class="hero-title">Generate Change. Elevate Humanity.<br>生成改变。造福人类。</h1>h1>
-                        <p class="hero-subtitle">基于下一代 Agent 与人工智能，构建造福人类的应用，探索意识的起源与真理，为人类创造更幸福的未来。</p>p>
-            </div>div>
-    </section>section>
+      <div class="hero-content">
+        <h1 class="hero-title" data-i18n="hero.title">
+          Generate Change. Elevate Humanity.<br>生成改变。造福人类。
+        </h1>
+        <p class="hero-subtitle" data-i18n="hero.subtitle">
+          基于下一代 Agent 与人工智能，构建造福人类的应用，探索意识的起源与真理，为人类创造更幸福的未来。
+        </p>
+      </div>
+    </section>
 
     <!-- About Us Section -->
     <section id="about" class="about">
-            <div class="section-container">
-                        <h2 class="section-title">We exist to understand what it means to be alive.</h2>h2>
-                        <p class="section-text">人类文明的每一次跃升，都源于对真理的追问。意识是宇宙中最深刻的谜题。我们在这里，试图理解它。</p>p>
-            </div>div>
-    </section>section>
+      <div class="section-container">
+        <h2 class="section-title" data-i18n="about.title">
+          We exist to understand what it means to be alive.
+        </h2>
+        <p class="section-text" data-i18n="about.text">
+          人类文明的每一次跃升，都源于对真理的追问。意识是宇宙中最深刻的谜题。我们在这里，试图理解它。
+        </p>
+      </div>
+    </section>
 
     <!-- What We Build Section -->
     <section id="products" class="products">
-            <div class="section-container">
-                        <h2 class="section-title">What we build</h2>h2>
-                        <div class="products-grid">
-                                        <div class="product-card">
-                                                            <h3>Agentic Applications</h3>
-                                                            <p>基于下一代 Agent 与人工智能形态，构建具有自主行动能力的智能应用，真正造福人类的日常生活。</p>
-                                        </div>div>
-                                        <div class="product-card">
-                                                            <h3>Consciousness Research</h3>
-                                                            <p>深入探索意识的起源与本质，追求人类最深刻的真理。</p>
-                                        </div>div>
-                                        <div class="product-card">
-                                                            <h3>Human Happiness</h3>
-                                                            <p>技术的终极衡量标准只有一个——它让多少人变得更幸福。</p>
-                                        </div>div>
-                        </div>div>
-            </div>div>
-    </section>section>
+      <div class="section-container">
+        <h2 class="section-title" data-i18n="products.title">What we build</h2>
+        <div class="products-grid">
+          <div class="product-card">
+            <h3 data-i18n="products.card1.title">Agentic Infrastructure</h3>
+            <p data-i18n="products.card1.desc">
+              基于下一代 Agent 与人工智能形态，构建驱动智能应用的基础设施，为开发者与企业提供可靠的底层能力支撑。
+            </p>
+          </div>
+          <div class="product-card">
+            <h3 data-i18n="products.card2.title">Consciousness Research</h3>
+            <p data-i18n="products.card2.desc">
+              深入探索意识的起源与本质，追求人类最深刻的真理。
+            </p>
+          </div>
+          <div class="product-card">
+            <h3 data-i18n="products.card3.title">Human Happiness</h3>
+            <p data-i18n="products.card3.desc">
+              技术的终极衡量标准只有一个——它让多少人变得更幸福。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Company Culture Section -->
     <section id="culture" class="culture">
-            <div class="section-container">
-                        <h2 class="section-title">How we think</h2>
-                        <div class="culture-grid">
-                                        <div class="culture-card">
-                                                            <h3>深刻思考</h3>
-                                                            <p>追求真理 独立思考，刨根问底，不满足于表面答案，直达事物本质与真相。</p>
-                                        </div>div>
-                                        <div class="culture-card">
-                                                            <h3>简单纯粹</h3>
-                                                            <p>把复杂的问题做简单，把简单的事情做干净。拒绝不必要的复杂性。</p>
-                                        </div>div>
-                                        <div class="culture-card">
-                                                            <h3>坦诚高效</h3>
-                                                            <p>表达真实想法，直接沟通，不浪费彼此的时间与精力。</p>
-                                        </div>div>
-                                        <div class="culture-card">
-                                                            <h3>追求极致</h3>
-                                                            <p>不只是完成，而是做到最好。高标准是我们对自己和世界的承诺。</p>
-                                        </div>div>
-                        </div>div>
-            </div>div>
-    </section>section>
+      <div class="section-container">
+        <h2 class="section-title" data-i18n="culture.title">How we think</h2>
+        <div class="culture-grid">
+          <div class="culture-card">
+            <h3 data-i18n="culture.card1.title">深刻思考</h3>
+            <p data-i18n="culture.card1.desc">
+              追求真理，独立思考，刨根问底，不满足于表面答案，直达事物本质与真相。
+            </p>
+          </div>
+          <div class="culture-card">
+            <h3 data-i18n="culture.card2.title">简单纯粹</h3>
+            <p data-i18n="culture.card2.desc">
+              把复杂的问题做简单，把简单的事情做干净。拒绝不必要的复杂性。
+            </p>
+          </div>
+          <div class="culture-card">
+            <h3 data-i18n="culture.card3.title">坦诚高效</h3>
+            <p data-i18n="culture.card3.desc">
+              表达真实想法，直接沟通，不浪费彼此的时间与精力。
+            </p>
+          </div>
+          <div class="culture-card">
+            <h3 data-i18n="culture.card4.title">追求极致</h3>
+            <p data-i18n="culture.card4.desc">
+              不只是完成，而是做到最好。高标准是我们对自己和世界的承诺。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Join Us Section -->
     <section id="join" class="join">
-            <div class="section-container">
-                        <h2 class="section-title">Join the generation that changes everything.</h2>
-                        <p class="section-subtitle">我们在寻找相信这件事的人——工程师、科学家、设计师，或者任何相信人类还没发挥全部潜能的人。你属于这里。</p>
-                        <button class="cta-button">We're Hiring →</button>button>
-            </div>div>
-    </section>section>
+      <div class="section-container">
+        <h2 class="section-title" data-i18n="join.title">
+          Join the generation that changes everything.
+        </h2>
+        <p class="section-subtitle" data-i18n="join.subtitle">
+          我们在寻找相信这件事的人——工程师、科学家、设计师，或者任何相信人类还没发挥全部潜能的人。你属于这里。
+        </p>
+        <button class="cta-button" data-i18n="join.cta">We're Hiring →</button>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
-            <div class="footer-content">
-                        <p>The world changes. We generate the change.</p>
-                        <p>© 2025 VigenNovus · 维境拟生</p>
-                        <div class="footer-links">
-                                        <a href="#contact">联系我们</a>a>
-                                        <a href="#privacy">隐私政策</a>a>
-                                        <a href="#terms">条款</a>a>
-                        </div>div>
-            </div>div>
-    </footer>footer>
+      <div class="footer-content">
+        <p>The world changes. We generate the change.</p>
+        <p>© 2025 VigenNovus · 维境拟生</p>
+        <div class="footer-links">
+          <a href="#contact" data-i18n="footer.contact">联系我们</a>
+          <a href="#privacy" data-i18n="footer.privacy">隐私政策</a>
+          <a href="#terms"   data-i18n="footer.terms">条款</a>
+        </div>
+      </div>
+    </footer>
 
     <script src="script.js"></script>
-</body>
-</html>html></p></p></h3></li></li>
-</body></title>
-  </head>
+  </body>
+</html>
