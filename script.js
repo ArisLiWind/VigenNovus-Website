@@ -9,8 +9,8 @@ const translations = {
     'hero.title':    '维新筑境，泽被苍生。',
     'hero.subtitle': '基于下一代 Agent 与人工智能，构建造福人类的基础设施与协议。',
 
-    'about.title': '我们生来是为了理解活着的意义。',
-    'about.text':  '人类文明的每一次跃升，都源于对真理的追问。意识是宇宙中最深刻的谜题。我们在这里，试图理解它。',
+    'about.title': '我们生来，不是为了理解活着的意义。',
+    'about.text':  '而是为了感受它。创造属于我们自己的人生，也为他人创造幸福。',
 
     'products.title':       '我们在构建什么',
     'products.card1.title': '智能体基础设施',
@@ -50,8 +50,8 @@ const translations = {
     'hero.title':    'Generate Change.<br>Elevate Humanity.',
     'hero.subtitle': 'Building the infrastructure and protocols that benefit humanity, powered by next-generation Agent and AI.',
 
-    'about.title': 'We exist to understand what it means to be alive.',
-    'about.text':  'Every leap in human civilization begins with the pursuit of truth. Consciousness is the deepest mystery in the universe. We are here to understand it.',
+    'about.title': 'We are not here to understand life.',
+    'about.text':  'We are here to feel it. To create a life that is our own, and to create happiness for others.',
 
     'products.title':      'What we build',
     'products.card1.title': 'Agentic Infrastructure',
