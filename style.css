@@ -47,8 +47,8 @@ body {
 }
 
 .nav-brand-cn {
-  font-size: 0.9rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 600;
   color: var(--text-light);
   letter-spacing: 0.5px;
 }
@@ -125,11 +125,12 @@ body {
 
 .hero-title-en {
   display: block;
-  font-size: 1.6rem;
-  font-weight: 400;
-  color: var(--text-muted);
-  letter-spacing: -0.01em;
-  margin-top: 0.5rem;
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: var(--text-light);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-top: 0;
 }
 
 .hero-subtitle {
