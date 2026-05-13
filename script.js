@@ -6,7 +6,7 @@ const translations = {
     'nav.culture':  '企业文化',
     'nav.join':     '加入我们',
 
-    'hero.title':    'Generate Change. Elevate Humanity.<br>生成改变。造福人类。',
+    'hero.title':    '生成改变。造福人类。',
     'hero.subtitle': '基于下一代 Agent 与人工智能，构建造福人类的应用，探索意识的起源与真理，为人类创造更幸福的未来。',
 
     'about.title': 'We exist to understand what it means to be alive.',
