@@ -1,2 +1,1 @@
-# ViginNovus-Website
-ViginNovus official website
+# VigenNovus-Website
