@@ -116,10 +116,10 @@ body {
 .hero-title {
   font-family: -apple-system, 'SF Pro Display', BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
   font-size: 4.5rem;
-  font-weight: 800;
+  font-weight: 600;
   margin-bottom: 2rem;
-  line-height: 1.08;
-  letter-spacing: -0.03em;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
   color: var(--text-light);
 }
 
@@ -138,9 +138,9 @@ section { padding: 100px 40px; }
 .section-title {
   font-family: -apple-system, 'SF Pro Display', BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
   font-size: 3rem;
-  font-weight: 800;
-  letter-spacing: -0.025em;
-  line-height: 1.08;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
   margin-bottom: 3rem;
   text-align: center;
   color: var(--text-light);
@@ -192,10 +192,10 @@ section { padding: 100px 40px; }
 
 .product-card h3 {
   font-family: -apple-system, 'SF Pro Display', BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 500;
   margin-bottom: 1rem;
-  color: var(--primary-blue);
+  color: var(--text-light);
 }
 
 .product-card p {
@@ -233,9 +233,9 @@ section { padding: 100px 40px; }
 .culture-card h3 {
   font-family: -apple-system, 'SF Pro Display', BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 1rem;
-  color: var(--primary-purple);
+  color: var(--text-light);
 }
 
 .culture-card p {
