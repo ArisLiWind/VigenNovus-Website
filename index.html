@@ -1,105 +1,129 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VigenNovus - 维境拟生</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VigenNovus - 维境拟生</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-      <div class="nav-container">
-        <div class="nav-brand">VigenNovus <span class="nav-brand-cn">维境拟生</span></div>
-        <ul class="nav-menu">
-          <li><a href="#home"   data-i18n="nav.about">关于我们</a></li>
-          <li><a href="#products" data-i18n="nav.products">我们的产品</a></li>
-          <li><a href="#culture"  data-i18n="nav.culture">企业文化</a></li>
-          <li><a href="#join"     data-i18n="nav.join">加入我们</a></li>
-        </ul>
-        <button class="lang-toggle" id="langToggle">EN</button>
+  <canvas id="grid-canvas"></canvas>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <span class="nav-brand-en">VigenNovus</span>
+        <span class="nav-brand-divider"></span>
+        <span class="nav-brand-cn">维境拟生</span>
       </div>
-    </nav>
+      <ul class="nav-menu">
+        <li><a href="#home"     data-i18n="nav.about">关于我们</a></li>
+        <li><a href="#products" data-i18n="nav.products">我们的产品</a></li>
+        <li><a href="#culture"  data-i18n="nav.culture">企业文化</a></li>
+        <li><a href="#join"     data-i18n="nav.join">加入我们</a></li>
+      </ul>
+      <button class="lang-toggle" id="langToggle">EN</button>
+    </div>
+  </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-      <div class="hero-content">
-        <h1 class="hero-title" data-i18n="hero.title">维新筑境，泽被苍生。</h1>
-        <p class="hero-subtitle" data-i18n="hero.subtitle">
-          基于下一代 Agent 与人工智能，构建造福人类的应用，探索意识的起源与真理，为人类创造更幸福的未来。
-        </p>
-      </div>
-    </section>
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-eyebrow" data-i18n="hero.eyebrow">VigenNovus · 维境拟生</div>
+      <h1 class="hero-title" data-i18n="hero.title">维新筑境，<br>泽被苍生。</h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">基于下一代 Agent 与人工智能和科技突破，构建造福人类的设施与协议。</p>
+      <div class="hero-line"></div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span></span>
+    </div>
+  </section>
 
-    <!-- What We Build Section -->
-    <section id="products" class="products">
-      <div class="section-container">
-        <h2 class="section-title" data-i18n="products.title">我们在构建什么</h2>
-        <div class="products-grid">
-          <div class="product-card">
+  <!-- Products -->
+  <section id="products" class="products">
+    <div class="section-container">
+      <div class="section-label" data-i18n="products.label">01 — WHAT WE BUILD</div>
+      <h2 class="section-title" data-i18n="products.title">我们在构建什么</h2>
+      <div class="products-list">
+        <div class="product-row reveal">
+          <div class="product-index">01</div>
+          <div class="product-body">
             <h3 data-i18n="products.card1.title">智能体基础设施</h3>
             <p data-i18n="products.card1.desc">基于下一代 Agent 与人工智能形态，构建驱动智能应用的基础设施，为开发者与企业提供可靠的底层能力支撑。</p>
           </div>
-          <div class="product-card">
+        </div>
+        <div class="product-row reveal">
+          <div class="product-index">02</div>
+          <div class="product-body">
             <h3 data-i18n="products.card2.title">意识研究</h3>
             <p data-i18n="products.card2.desc">深入探索意识的起源与本质，追求人类最深刻的真理。</p>
           </div>
-          <div class="product-card">
+        </div>
+        <div class="product-row reveal">
+          <div class="product-index">03</div>
+          <div class="product-body">
             <h3 data-i18n="products.card3.title">人类幸福</h3>
             <p data-i18n="products.card3.desc">技术的终极衡量标准只有一个——它让多少人变得更幸福。</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Company Culture Section -->
-    <section id="culture" class="culture">
-      <div class="section-container">
-        <h2 class="section-title" data-i18n="culture.title">我们如何思考</h2>
-        <div class="culture-grid">
-          <div class="culture-card">
-            <h3 data-i18n="culture.card1.title">深刻思考</h3>
-            <p data-i18n="culture.card1.desc">追求真理，独立思考，刨根问底，不满足于表面答案，直达事物本质与真相。</p>
-          </div>
-          <div class="culture-card">
-            <h3 data-i18n="culture.card2.title">简单纯粹</h3>
-            <p data-i18n="culture.card2.desc">把复杂的问题做简单，把简单的事情做干净。拒绝不必要的复杂性。</p>
-          </div>
-          <div class="culture-card">
-            <h3 data-i18n="culture.card3.title">坦诚高效</h3>
-            <p data-i18n="culture.card3.desc">表达真实想法，直接沟通，不浪费彼此的时间与精力。</p>
-          </div>
-          <div class="culture-card">
-            <h3 data-i18n="culture.card4.title">追求极致</h3>
-            <p data-i18n="culture.card4.desc">不只是完成，而是做到最好。高标准是我们对自己和世界的承诺。</p>
-          </div>
+  <!-- Culture -->
+  <section id="culture" class="culture">
+    <div class="section-container">
+      <div class="section-label" data-i18n="culture.label">02 — HOW WE THINK</div>
+      <h2 class="section-title" data-i18n="culture.title">我们如何思考</h2>
+      <div class="culture-grid">
+        <div class="culture-card reveal">
+          <div class="culture-card-num">—</div>
+          <h3 data-i18n="culture.card1.title">深刻思考</h3>
+          <p data-i18n="culture.card1.desc">追求真理，独立思考，刨根问底，不满足于表面答案，直达事物本质与真相。</p>
+        </div>
+        <div class="culture-card reveal">
+          <div class="culture-card-num">—</div>
+          <h3 data-i18n="culture.card2.title">简单纯粹</h3>
+          <p data-i18n="culture.card2.desc">把复杂的问题做简单，把简单的事情做干净。拒绝不必要的复杂性。</p>
+        </div>
+        <div class="culture-card reveal">
+          <div class="culture-card-num">—</div>
+          <h3 data-i18n="culture.card3.title">坦诚高效</h3>
+          <p data-i18n="culture.card3.desc">表达真实想法，直接沟通，不浪费彼此的时间与精力。</p>
+        </div>
+        <div class="culture-card reveal">
+          <div class="culture-card-num">—</div>
+          <h3 data-i18n="culture.card4.title">追求极致</h3>
+          <p data-i18n="culture.card4.desc">不只是完成，而是做到最好。高标准是我们对自己和世界的承诺。</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Join Us Section -->
-    <section id="join" class="join">
-      <div class="section-container">
-        <h2 class="section-title" data-i18n="join.title">加入改变一切的这一代人。</h2>
-        <p class="section-subtitle" data-i18n="join.subtitle">我们在寻找相信这件事的人——工程师、科学家、设计师，或者任何相信人类还没发挥全部潜能的人。你属于这里。</p>
-        <button class="cta-button" data-i18n="join.cta">我们在招募 →</button>
+  <!-- Join -->
+  <section id="join" class="join">
+    <div class="section-container">
+      <div class="section-label" data-i18n="join.label">03 — JOIN US</div>
+      <h2 class="join-title reveal" data-i18n="join.title">加入改变一切的<br>这一代人。</h2>
+      <p class="join-subtitle reveal" data-i18n="join.subtitle">我们在寻找相信这件事的人——工程师、科学家、设计师，或者任何相信人类还没发挥全部潜能的人。你属于这里。</p>
+      <button class="cta-button reveal" data-i18n="join.cta">我们在招募 →</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">VigenNovus <span>维境拟生</span></div>
+      <div class="footer-links">
+        <a href="#" data-i18n="footer.contact">联系我们</a>
+        <a href="#" data-i18n="footer.privacy">隐私政策</a>
+        <a href="#" data-i18n="footer.terms">条款</a>
       </div>
-    </section>
+      <div class="footer-copy" data-i18n="footer.copy">© 2025 VigenNovus · 维境拟生</div>
+    </div>
+  </footer>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="footer-content">
-        <p data-i18n="footer.tagline">世界在改变。我们生成这种改变。</p>
-        <p data-i18n="footer.copy">© 2025 VigenNovus · 维境拟生</p>
-        <div class="footer-links">
-          <a href="#contact" data-i18n="footer.contact">联系我们</a>
-          <a href="#privacy" data-i18n="footer.privacy">隐私政策</a>
-          <a href="#terms"   data-i18n="footer.terms">条款</a>
-        </div>
-      </div>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
